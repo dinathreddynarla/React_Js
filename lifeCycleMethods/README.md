@@ -18,8 +18,8 @@ components ->
 --->
         1. Constructor :- initialize states, inherit parent properties || methods , we can bind event
 
-        2. getDerivedStatefromProps :- 
-            static getDerivedStatefromProps(props,state){
+        2. getDerivedStateFromProps :- 
+            static getDerivedStateFromProps(props,state){
                 this.setState({})
             }
 
