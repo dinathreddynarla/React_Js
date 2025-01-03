@@ -1,0 +1,84 @@
+
+.network-status-popup {
+    position: fixed;
+    top: 20px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000; 
+    animation: fadeInOut 3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.7); 
+    text-align: center;
+}
+
+  
+
+  .network-status-popup.online {
+    background-color: #4caf50;
+  }
+  
+ 
+  .network-status-popup.offline {
+    background-color: #f44336;
+  }
+  
+ 
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    10% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    90% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  }
+  
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-btn,
+  .logout-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .login-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .logout-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .logout-btn:hover {
+    background-color: #d32f2f;
+  }
+  

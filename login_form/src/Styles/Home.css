@@ -1,0 +1,10 @@
+body{
+    margin:0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    color: black;
+  }
+  
