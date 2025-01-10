@@ -1,0 +1,29 @@
+.toggle-button {
+    margin: auto;
+    margin-left: 100px;
+    padding: 10px 20px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-button.on {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .toggle-button.off {
+    background-color: #f44336;
+    color: white;
+  }
+
+  .toggle-button:hover {
+    box-shadow: 0 0 10px rgba(255, 60, 172, 0.6); /* "Small light" effect */
+}
